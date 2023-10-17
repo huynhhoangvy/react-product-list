@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# Infinite Scrolling and Searchable Product List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Overview
 
-## Available Scripts
+Overview
+This project is a React application written in TypeScript that implements an infinite scrolling list of products. 
+The product data is fetched from the [DummyJSON Product API](https://dummyjson.com/docs/products). 
+In addition to infinite scrolling, the project also provides a search functionality to find products by name.
 
-In the project directory, you can run:
+## Demo
+A live demo of this project can be found here: [Demo Link]()
 
-### `yarn start`
+## Features
+1. <b>Infinite Scrolling:</b> As the user scrolls to the end of the product list, 
+the application automatically fetches the next 20 products from the API.
+2. <b>Search:</b> Users can search for products by name, and the product list is updated in real-time as they type.
+3. <b>Products Display:</b> Products are displayed with relevant information, such as name, price, and an image.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Prerequisites
+Before you begin, ensure you have met the following requirements:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Node.js installed on your machine
+- NPM or Yarn for package management
 
-### `yarn test`
+## Installation
+To install this project, follow these steps:
+1. Clone this repository: `git clone https://github.com/yourusername/your-repo.git`
+2. Change to the project directory: `cd react-product-list`
+3. Install dependencies: `yarn install` or `npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
+To run this project locally, use the following commands: `yarn start` or `npm start`
 
-### `yarn build`
+This will start the development server. You can access the project in your browser at <b>http://localhost:3000</b>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
+1. React
+2. Typescript
+3. ReactSWR
+4. SASS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
