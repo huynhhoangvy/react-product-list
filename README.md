@@ -8,7 +8,7 @@ The product data is fetched from the [DummyJSON Product API](https://dummyjson.c
 In addition to infinite scrolling, the project also provides a search functionality to find products by name.
 
 ## Demo
-A live demo of this project can be found here: [Demo Link]()
+A live demo of this project can be found here: [Demo Link](https://hhvy-react-product-list.netlify.app/)
 
 ## Features
 1. <b>Infinite Scrolling:</b> As the user scrolls to the end of the product list, 
